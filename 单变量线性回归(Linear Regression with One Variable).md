@@ -48,9 +48,10 @@ $h$ 代表学习算法的解决方案或函数也称为假设（hypothesis）
 
 ### 梯度下降的线性回归
 
-对我们之前的线性回归问题运用梯度下降法，关键在于求出代价函数的导数，即：  
-![image](image/梯度下降的线性回归.png)  
 
+![image](image/梯度下降的线性回归.png)    
+
+对我们之前的线性回归问题运用梯度下降法，关键在于求出代价函数的导数，即：  
 
 $\frac{\partial }{\partial {{\theta }{j}}}J({{\theta }{0}},{{\theta }{1}})=\frac{\partial }{\partial {{\theta }{j}}}\frac{1}{2m}{{\sum\limits_{i=1}^{m}{\left( {{h}_{\theta }}({{x}^{(i)}})-{{y}^{(i)}} \right)}}^{2}}$
 
